@@ -107,22 +107,22 @@
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>    
 const swiper = new Swiper('.swiper', {
-autoHeight:true,
   loop: true,
-  
-
-  // If we need pagination
+  autoHeight: true,
+  autoplay: {
+    delay: 7000,  // 7 seconds per slide
+    disableOnInteraction: false,
+  },
+  speed: 2000,    // 2-second transition (adjust to your comfort)
   pagination: {
     el: '.swiper-pagination',
   },
-
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
 });
+
 
 
 </script>
