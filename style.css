@@ -130,6 +130,25 @@ body{
     transition: border-radius .5s .3s;
 }
 
+.slide-1 .thumbnail::before {
+  background-color: #FF69B4; 
+}
+.slide-2 .thumbnail::before {
+  background-color: olive; 
+}
+.slide-3 .thumbnail::before {
+  background-color: firebrick; 
+}
+.slide-4 .thumbnail::before {
+  background-color: darkorange; 
+}
+.slide-5 .thumbnail::before {
+  background-color: darkmagenta; 
+}
+
+
+
+
 
 .testi .swiper-slide-active .thumbnail::before{
      border-radius: 33% 67% 50% 50% / 50% 14% 86% 50%;
